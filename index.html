@@ -553,10 +553,8 @@
         </div>
 
         <div class="footer-subscribe-form">
+          <label class="subscribe-label" for="subscribe-email">Subscribe</label>
           <form class="subscribe-form" name="subscribe-form">
-            <label class="subscribe-label" for="subscribe-email"
-              >Subscribe</label
-            >
             <input
               class="subscribe-form-field"
               type="text"
@@ -564,13 +562,13 @@
               name="subscribe-email"
               id="subscribe-email"
             />
+            <button class="subscribe-btn">
+              Subscribe
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="/images/icons.svg#icon-subscribe"></use>
+              </svg>
+            </button>
           </form>
-          <button class="subscribe-btn">
-            Subscribe
-            <svg class="subscribe-icon" width="24" height="24">
-              <use href="/images/icons.svg#icon-subscribe"></use>
-            </svg>
-          </button>
         </div>
       </div>
     </footer>
@@ -597,7 +595,7 @@
               name="modal_name"
               id="modal_name"
             />
-            <svg class="modal-icon" width="26" height="26">
+            <svg class="modal-icon" width="18" height="18">
               <use href="./images/icons.svg#icon-name"></use>
             </svg>
           </div>
@@ -610,7 +608,7 @@
               name="modal_phone"
               id="modal_phone"
             />
-            <svg class="modal-icon" width="26" height="26">
+            <svg class="modal-icon" width="18" height="24">
               <use href="./images/icons.svg#icon-phone"></use>
             </svg>
           </div>
@@ -623,7 +621,7 @@
               name="modal_email"
               id="modal_email"
             />
-            <svg class="modal-icon" width="26" height="26">
+            <svg class="modal-icon" width="18" height="24">
               <use href="./images/icons.svg#icon-email"></use>
             </svg>
           </div>
@@ -645,7 +643,7 @@
             >
           </label>
 
-          <button class="modal-btn" type="submit">Send</button>
+          <button class="form-modal-btn" type="submit">Send</button>
         </form>
       </div>
     </div>
