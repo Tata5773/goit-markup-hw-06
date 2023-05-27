@@ -716,7 +716,14 @@ img {
 }
 
 .subscribe-icon {
+  flex: none;
   margin-left: 16px;
+  fill: currentColor;
+  height: 24px;
+  width: 23.999996185302734px;
+  left: 117px;
+  top: 8px;
+  border-radius: 0px;
 }
 
 .backdrop {
