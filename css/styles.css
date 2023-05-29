@@ -803,6 +803,7 @@ img {
   display: block;
   margin-bottom: 4px;
   margin-top: 8px;
+  color: #8e8f99;
 
   font-size: 12px;
 }
@@ -817,6 +818,7 @@ img {
   height: 40px;
   padding: 0;
   padding-left: 46px;
+  color: #2e2f4266;
 
   outline: transparent;
   outline-offset: -1px;
@@ -887,9 +889,7 @@ img {
 
 .form-agreement {
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 6px;
 
   margin-bottom: 20px;
 }
@@ -901,6 +901,7 @@ img {
   display: block;
   border: 1px solid #2e2f4266;
   border-radius: 2px;
+  margin-right: 6px;
 
   background-position: center;
   background-repeat: no-repeat;
